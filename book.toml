@@ -3,7 +3,7 @@ authors = []
 language = "en"
 multilingual = false
 src = "src"
-title = "Revolt Documentation"
+title = "TrueVolt Documentation"
 
 [preprocessor]
 
@@ -15,12 +15,12 @@ assets_version = "3.0.2"    # do not edit: managed by `mdbook-admonish install`
 
 [output.html]
 additional-css = ["./mdbook-admonish.css"]
-git-repository-url = "https://github.com/revoltchat"
+git-repository-url = "https://github.com/truevolt"
 git-repository-icon = "fa-github"
-edit-url-template = "https://github.com/revoltchat/wiki/edit/main/{path}"
+edit-url-template = "https://github.com/truevolt/wiki/edit/main/{path}"
 
 [output.html.redirect]
-"/markdown.html" = "https://support.revolt.chat/kb/interface/messages/formatting-your-messages"
+"/markdown.html" = "https://truevolt-support.ErrorOliver.lol/kb/interface/messages/formatting-your-messages"
 "/plugin-api.html" = "/developers/legacy-plugin-api.html"
 "/stack/developers/permissions.html" = "/developers/api/permissions.html"
 "/stack/developers/rate_limits.html" = "/developers/api/ratelimits.html"
